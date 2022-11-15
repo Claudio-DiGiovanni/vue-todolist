@@ -1,0 +1,30 @@
+ul{
+   list-style: none; 
+}
+
+.list{
+    background-color: lightgray;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.list li:hover{
+    background-color: antiquewhite;
+}
+
+.list li i{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.check{
+    text-decoration: line-through;
+}
